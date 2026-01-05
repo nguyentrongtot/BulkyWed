@@ -1,0 +1,19 @@
+# === Visual Studio / C# ===
+[Bb]in/
+[Oo]bj/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# === JavaScript / Node.js ===
+node_modules/
+dist/
+npm-debug.log*
+yarn-error.log*
+.env
+
+# === Temporary Files ===
+*.tmp
+*.log
