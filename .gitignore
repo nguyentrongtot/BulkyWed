@@ -7,13 +7,28 @@
 *.userosscache
 *.sln.docstates
 
-# === JavaScript / Node.js ===
-node_modules/
-dist/
-npm-debug.log*
-yarn-error.log*
-.env
+# === .NET Core ===
+project.lock.json
+project.fragment.lock.json
+artifacts/
+out/
+/wwwroot/lib/
 
-# === Temporary Files ===
-*.tmp
-*.log
+# === User-specific files ===
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# === Database & Secrets (Rất quan trọng) ===
+*.db
+*.db-shm
+*.db-wal
+appsettings.Development.json
+# Không nên bỏ appsettings.json nếu bạn muốn giữ cấu trúc file, 
+# nhưng nên bỏ các file chứa secret thực sự.
+
+# === OS files ===
+.DS_Store
+Thumbs.db
